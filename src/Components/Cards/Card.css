@@ -1,0 +1,75 @@
+:root{
+  --primaryColor:#B42476;
+  --blueColor:#3EA7EC;
+  --greyColor:#ddd;
+  --boxShadow:0 2px 15px rgb(0 0 0 / 20%);
+  --greyfont:#333;
+}
+
+.card
+{
+  overflow: hidden;
+  border:1px solid var(--greyColor);
+  border-radius: 0.5rem;
+  border-top:0.18rem solid var(--primaryColor);
+  text-align: start;
+  background-color: #fff;
+}
+.card:hover{
+  box-shadow:var(--boxShadow);
+  cursor: pointer;
+}
+.header-card
+{
+  display: flex;
+  justify-content: space-between;
+
+}
+ .user-info
+{
+  display: flex;
+  justify-content: space-between;
+  gap:0.32rem;
+}
+.header-card img
+{
+  object-fit: cover;
+  width:3.5rem ;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+.date
+{
+  font-size:0.8rem ;
+  color: var(--greyfont);
+}
+
+.desc
+{
+  font-size:0.9rem;
+  line-height: 1.4;
+  color: var(--greyfont);
+  margin-top: 0.5rem;
+}
+.card-img img
+{
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 0.3rem;
+  margin:1rem auto
+}
+.icons{
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.active-icon
+{
+  display: flex;
+  justify-content: space-between;
+}
+.title-icon
+{
+  font-size:1.1rem;
+}
+
+
