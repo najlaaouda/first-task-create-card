@@ -2,10 +2,7 @@ import Card from "../Cards";
 import Data from "../../Data/Data";
 import { BiLike, BiCommentDetail } from "react-icons/bi";
 import { RiShareForwardLine } from "react-icons/ri";
-
-
 import "./Post.css";
-
 const Post = () => {
   const postInfo = Data.map(ele => 
     <Card
